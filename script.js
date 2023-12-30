@@ -46,6 +46,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Remove the previous event listener for the "GET HEN" image
 
+  // Remove any existing event listener for the "GET HEN" text
+  var getHenText = document.getElementById("gethen");
+
+  if (getHenText) {
+    getHenText.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent the default click behavior
+    });
+  }
+
   // Initial call to set heights when the page loads
   window.addEventListener("load", function () {
     var mainContent = document.getElementById("main-content1");
