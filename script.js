@@ -54,6 +54,16 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // Event listener for the "change-message-btn" button
+    var changeMessageBtn = document.getElementById("change-message-btn");
+
+    if (changeMessageBtn) {
+        changeMessageBtn.addEventListener("click", function () {
+            // Navigate to the "second-page.html" file when the button is clicked
+            window.location.href = "second-page.html";
+        });
+    }
+
     // Initial call to set heights when the page loads
     window.addEventListener("load", function () {
         var mainContent = document.getElementById("main-content1");
