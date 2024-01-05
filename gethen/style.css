@@ -26,13 +26,6 @@ h1.title {
   float: left;
 }
 
-h3.earlyaccess {
-  font-size: 40px;
-  font-weight: bold;
-  margin: 100;
-  display: block;
-  float: left;
-}
 @-webkit-keyframes move-up {
   0% {
     top: 25px;
@@ -65,11 +58,11 @@ h3.earlyaccess {
     top: -50px;
     opacity: 0;
   }
-
+}
 .score-container {
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  position: relative;
+  top: 17px; right: -50px;
+  float: right;
   background: #bbada0;
   padding: 20px 30px;
   font-size: 25px;
@@ -80,7 +73,6 @@ h3.earlyaccess {
   color: white;
   margin-top: 8px;
 }
-
 .score-container:after {
   position: absolute;
   width: 100%;
