@@ -61,7 +61,7 @@ h1.title {
 }
 .score-container {
   position: absolute;
-  top: 0;
+  top: -50px;
   right: 0;
   background: #bbada0;
   padding: 20px 30px;
@@ -73,6 +73,7 @@ h1.title {
   color: white;
   margin-top: 8px;
 }
+
 .score-container:after {
   position: absolute;
   width: 100%;
