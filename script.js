@@ -53,7 +53,7 @@ var card = document.getElementById("card"); // Replace "card" with the actual ID
 if (card) {
   card.addEventListener("click", function () {
     // Navigate to a different HTML page when the card is clicked
-    window.location.href = "path/to/different-page.html";
+    window.location.href = "gethen/index.html";
   });
 }
 
