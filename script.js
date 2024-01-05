@@ -56,7 +56,7 @@ if (card) {
     window.location.href = "gethen/index.html";
   });
 }
-
+gethen/index.html
 // Initial call to set heights when the page loads
 window.addEventListener("load", function () {
   var mainContent = document.getElementById("main-content1");
