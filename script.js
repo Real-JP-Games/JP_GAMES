@@ -48,14 +48,18 @@ window.addEventListener("load", function () {
 var mainContent = document.getElementById("main-content1");
  mainContent.style.minHeight =    document.getElementById("title").clientHeight + "px";
 });
-  var gethen = document.getElementById("gethen");
 
-  if (gethen) {
-    gethen.addEventListener("gethen", function () {
-      // Navigate to the "second-page.html" file when the button is clicked
-      window.location.href = "gethen/index.html";
-    });
-  }
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the button element by its ID
+  var gethenButton = document.getElementById("gethenButton");
+
+  // Add a click event listener to the button
+  gethenButton.addEventListener("click", function () {
+    // Redirect to a new page
+    window.location.href = "gethen/index.html";
+  });
+});
+
 // Initial call to set heights when the page loads
 window.addEventListener("load", function () {
   var mainContent = document.getElementById("main-content1");
