@@ -26,6 +26,13 @@ h1.title {
   float: left;
 }
 
+h3.earlyaccess {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 100;
+  display: block;
+  float: left;
+}
 @-webkit-keyframes move-up {
   0% {
     top: 25px;
