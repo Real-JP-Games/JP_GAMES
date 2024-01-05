@@ -90,8 +90,8 @@ img {
   cursor: pointer;
 }
 
-h2 {
-  color: white;
+gethenButton {
+  bacgroundcolor: transparent;
   margin-top: 0;
 }
 
