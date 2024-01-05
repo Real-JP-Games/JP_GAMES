@@ -48,15 +48,14 @@ window.addEventListener("load", function () {
 var mainContent = document.getElementById("main-content1");
  mainContent.style.minHeight =    document.getElementById("title").clientHeight + "px";
 });
-var card = document.getElementById("card"); // Replace "card" with the actual ID of your card element
+  var gethen = document.getElementById("gethen");
 
-if (card) {
-  card.addEventListener("click", function () {
-    // Navigate to a different HTML page when the card is clicked
-    window.location.href = "gethen/index.html";
-  });
-}
-gethen/index.html
+  if (gethen) {
+    gethen.addEventListener("gethen", function () {
+      // Navigate to the "second-page.html" file when the button is clicked
+      window.location.href = "gethen/index.html";
+    });
+  }
 // Initial call to set heights when the page loads
 window.addEventListener("load", function () {
   var mainContent = document.getElementById("main-content1");
