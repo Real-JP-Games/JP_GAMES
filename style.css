@@ -89,16 +89,16 @@ img {
   text-align: left;
   cursor: pointer;
 }
-<div class="gethenButton" onclick="yourbuttonclickfunction();" >
-Your Button Label Here
-</div>
+
 .gethenButton {
-   background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    margin-top: 0;
+   font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
+  float: left;
+  background: transparent;
+  color: #001e51;
+  border: none;
 }
 
 footer {
