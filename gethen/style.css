@@ -68,8 +68,8 @@ h3.earlyaccess {
 
 .score-container {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 0px;
   background: #bbada0;
   padding: 20px 30px;
   font-size: 25px;
@@ -80,6 +80,7 @@ h3.earlyaccess {
   color: white;
   margin-top: 8px;
 }
+
 .score-container:after {
   position: absolute;
   width: 100%;
