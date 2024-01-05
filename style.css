@@ -89,7 +89,9 @@ img {
   text-align: left;
   cursor: pointer;
 }
-
+<div class="gethenButton" onclick="yourbuttonclickfunction();" >
+Your Button Label Here
+</div>
 .gethenButton {
    background-color: Transparent;
     background-repeat:no-repeat;
