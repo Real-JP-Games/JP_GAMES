@@ -25,11 +25,10 @@ body {
   clear: both;
 }
 
-h1.title {
+h1.jp {
   font-size: 80px;
   font-weight: bold;
   margin: 0;
-  posit
   display: block;
   float: left;
 }
