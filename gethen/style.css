@@ -41,6 +41,21 @@ h1.jp {
  
 }
 
+#home {
+  background: transparent;
+  color: #001e51;
+  border: 2px solid #001e51;
+  padding: 10px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+#home:hover {
+  background: #001e51;
+  color: white;
+}
+
 @-webkit-keyframes move-up {
   0% {
     top: 25px;
