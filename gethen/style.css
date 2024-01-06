@@ -24,10 +24,7 @@ body {
   display: block;
   clear: both;
 }
-.home {
-  position: absolute;
-  top: -10px;
-}
+
 h1.title {
   font-size: 80px;
   font-weight: bold;
