@@ -1,10 +1,15 @@
  @import url(https://fonts.googleapis.com/css?family=Slackey);
+
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
-  padding: 0px;
+  padding: 50px; /* Adjust the padding value if needed */
   background: #3692ff;
   color: #001e51;
-  font-family: 'Slackey',sans-serif;
+  font-family: 'Slackey', sans-serif;
   font-size: 18px;
 }
 header {
