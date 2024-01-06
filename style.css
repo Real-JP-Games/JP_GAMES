@@ -99,7 +99,7 @@ img {
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
   position: relative;
-  top: 50px;
+  top: 15px;
   margin-left: -195px;
 }
 
