@@ -91,10 +91,10 @@ h1.jp {
 }
 .score-container {
   position: absolute;
-  top: 250px;
+  top: 270px;
   right: 455px;
   background: #bbada0;
-  padding: 30px 25px;
+  padding: 25px 25px;
   z-index: 0;
   font-size: 25px;
   height: 25px;
