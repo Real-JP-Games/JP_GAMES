@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Slackey);
+  @import url(https://fonts.googleapis.com/css?family=Slackey);
 
 body {
   margin: 0;
@@ -99,7 +99,7 @@ img {
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
   margin-top: 100px; 
-  margin-left: -80px;
+  margin-left: -150px;
 }
 
 #gethenButton:hover {
