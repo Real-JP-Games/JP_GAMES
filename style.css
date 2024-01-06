@@ -98,8 +98,8 @@ img {
   font-size: 16px;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 #gethenButton:hover {
