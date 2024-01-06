@@ -91,7 +91,6 @@ img {
 }
 
 #gethenButton {
-  top: 10px;
   background: transparent;
   color: #001e51;
   border: 2px solid #001e51;
@@ -99,6 +98,8 @@ img {
   font-size: 16px;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 #gethenButton:hover {
