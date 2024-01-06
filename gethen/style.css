@@ -6,7 +6,7 @@
 
 html, body {
   margin: 0;
-  padding: -50px; /* Adjust the padding value if needed */
+  padding: 0px; /* Adjust the padding value if needed */
   background: #3692ff;
   color: #001e51;
   font-family: 'Slackey', sans-serif;
