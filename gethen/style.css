@@ -13,7 +13,7 @@ header {
   text-align: center;
   padding: 0px;
   position: sticky;
-  top: 0px;
+  top: -10px;
 }
 body {
   margin: 20px 0;  
