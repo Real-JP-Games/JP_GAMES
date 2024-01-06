@@ -7,7 +7,14 @@ html, body {
   font-family: 'Slackey',sans-serif;
   font-size: 18px;
 }
-
+header {
+  background-color: #60a3f0;
+  color: #001e51;
+  text-align: center;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
 body {
   margin: 20px 0;  
 }
