@@ -99,7 +99,7 @@ img {
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
   margin-top: 100px; 
-  margin-left: -190px;
+  margin-left: -200px;
 }
 
 #gethenButton:hover {
