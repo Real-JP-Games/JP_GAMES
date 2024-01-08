@@ -537,6 +537,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Add a click event listener to the button
   gethenButton.addEventListener("click", function () {
     // Redirect to a new page
-    window.location.href = "index.html";
+    window.location.href = "Home/index.html";
   });
 });
