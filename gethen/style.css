@@ -94,10 +94,10 @@ h1.jp {
   top: 338px;
   right: 455px;
   background: #bbada0;
-  padding: 35px 30px;
+  padding: 20px 30px;
   z-index: 1;
   font-size: 25px;
-  height: 25px;
+  height: 30px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
@@ -108,7 +108,7 @@ h1.jp {
 .score-container:after {
   position: absolute;
   width: 100%;
-  top: 2px;
+  top: 5px;
   left: 0;
   content: "Score";
   text-transform: uppercase;
