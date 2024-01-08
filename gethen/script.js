@@ -528,15 +528,3 @@ Tile.prototype.updatePosition = function (position) {
   this.x = position.x;
   this.y = position.y;
 };
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Get the button element by its ID
-  var gethenButton = document.getElementById("home");
-
-  // Add a click event listener to the button
-  gethenButton.addEventListener("click", function () {
-    // Redirect to a new page
-    window.location.href = "home.html";
-  });
-});
