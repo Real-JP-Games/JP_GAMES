@@ -213,7 +213,7 @@ hr {
   bottom: 0;
   left: 0;
   background: rgba(38, 228, 218, 0.5);
-  z-index: 2;
+  z-index: 7;
   text-align: center;
   -webkit-animation: fade-in 800ms ease 1200ms;
   -moz-animation: fade-in 800ms ease 1200ms;
