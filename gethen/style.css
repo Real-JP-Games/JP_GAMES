@@ -108,7 +108,7 @@ h1.jp {
 .score-container:after {
   position: absolute;
   width: 100%;
-  top: 5px;
+  top: 2px;
   left: 0;
   content: "Score";
   text-transform: uppercase;
