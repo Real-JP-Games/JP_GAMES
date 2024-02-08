@@ -124,7 +124,7 @@ GameManager.prototype.move = function (direction) {
           self.score += merged.value;
 
           // The mighty 2048 tile
-          if (merged.value === 2048) self.won = true;
+          if (merged.value === 64) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
@@ -422,7 +422,7 @@ HTMLActuator.prototype.updateScore = function (score) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!"
+  var message = won ? "END OF EARLY ACCESS" : "Game over!"
 
   // if (ga) ga("send", "event", "game", "end", type, this.score);
 
@@ -485,8 +485,8 @@ KeyboardInputManager.prototype.listen = function () {
     }
   });
 
-  var retry = document.getElementsByClassName("retry-button")[0];
-  retry.addEventListener("click", this.restart.bind(this));
+  //var retry = document.getElementsByClassName("retry-button")[0];
+ // retry.addEventListener("click", this.restart.bind(this));
 
   // Listen to swipe events
   var gestures = [Hammer.DIRECTION_UP, Hammer.DIRECTION_RIGHT,
